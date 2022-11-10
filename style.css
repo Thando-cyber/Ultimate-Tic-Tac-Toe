@@ -56,3 +56,37 @@
 		color: dodgerblue;
 		font-size: 17px;
 	}
+    .btn6, .btn6:link, .btn6:visited {
+        padding: 13px 0;
+        border: 1px solid #333;
+        color: #333;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 3px;
+        transition: all .2s ease-in-out;
+    }
+        .btn6:hover {
+          background: #333;
+          border: 1px solid #333;
+          color: #fefefe;
+          border-radius: 30px;
+        }
+        .wrap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -259px;
+            margin-left: -89px;
+            text-align: center;
+          }
+          a {
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            margin: 20px auto;
+          }
+          
+      
+      
