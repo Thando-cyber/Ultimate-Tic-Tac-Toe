@@ -1,0 +1,190 @@
+    
+   <head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+   
+    <!-- CSS file Included -->
+    <link rel="stylesheet"
+        type="text/css" href="style.css">
+   
+    <!-- JavaScript file included -->
+    <script src="tictac.js"></script>
+</head>
+   
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+   
+        <!-- Game Instructions -->
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player X</b><br>And<br>Second 
+            Player as <b>Player 0</b>
+        </p>
+ 
+  
+   
+   
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="a1" onclick="myfunc_3(); myfunc();" readonly>
+   
+        <input type="text" id="a2" onclick="myfunc_4(); myfunc();" readonly>
+   
+        <input type="text" id="a3" onclick="myfunc_5(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="d1" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="d2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="d3" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="e1" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="e2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="e3" onclick="myfunc_4(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="a4" onclick="myfunc_6(); myfunc();" readonly>
+               
+        <input type="text" id="a5" onclick="myfunc_7(); myfunc();" readonly>
+   
+        <input type="text" id="a6" onclick=myfunc_8(); myfunc();" readonly>
+            &nbsp;&nbsp;&nbsp;
+        <input type="text" id="d4" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="d5" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="d6" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="e4" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="e5" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="e6" onclick="myfunc_4(); myfunc();" readonly>
+
+        <br><br>
+   
+        <input type="text" id="a7" onclick="myfunc_9(); myfunc();" readonly>
+   
+        <input type="text" id="a8" onclick="myfunc_10();myfunc();" readonly>
+   
+        <input type="text" id="a9" onclick="myfunc_11();myfunc();" readonly>
+            &nbsp;&nbsp;&nbsp;
+        <input type="text" id="d7" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="d8" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="d9" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="e7" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="e8" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="e9" onclick="myfunc_4(); myfunc();" readonly>
+        <!-- Grid end here  -->
+        <br><br><br>
+
+        <input type="text" id="b1" onclick="myfunc_3(); myfunc();" readonly>
+        <input type="text" id="b2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="b3" onclick="myfunc_5(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="f1" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="f2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="f3" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="g1" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="g2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="g3" onclick="myfunc_4(); myfunc();" readonly>
+        <br><br>
+        
+
+        <input type="text" id="b4" onclick=
+            "myfunc_6(); myfunc();" readonly>
+               
+        <input type="text" id="b5" onclick=
+            "myfunc_7(); myfunc();" readonly>
+   
+        <input type="text" id="b6" onclick=
+            "myfunc_8(); myfunc();" readonly>
+            &nbsp;&nbsp;&nbsp;
+            <input type="text" id="f4" onclick="myfunc_4(); myfunc();" readonly>
+            <input type="text" id="f5" onclick="myfunc_4(); myfunc();" readonly>
+            <input type="text" id="f6" onclick="myfunc_4(); myfunc();" readonly>
+            &nbsp;&nbsp;&nbsp;
+            <input type="text" id="g4" onclick="myfunc_4(); myfunc();" readonly>
+            <input type="text" id="g5" onclick="myfunc_4(); myfunc();" readonly>
+            <input type="text" id="g6" onclick="myfunc_4(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b7" onclick=
+            "myfunc_9(); myfunc();" readonly>
+   
+        <input type="text" id="b8" onclick=
+            "myfunc_10();myfunc();" readonly>
+   
+        <input type="text" id="b9" onclick=
+            "myfunc_11();myfunc();" readonly>
+            &nbsp;&nbsp;&nbsp;
+        <input type="text" id="f7" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="f8" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="f9" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="g7" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="g8" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="g9" onclick="myfunc_4(); myfunc();" readonly>
+        <br><br><br>
+
+
+        <input type="text" id="c1" onclick="myfunc_3(); myfunc();" readonly>
+        <input type="text" id="c2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="c3" onclick="myfunc_5(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="h1" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="h2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="h3" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="i1" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="i2" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="i3" onclick="myfunc_4(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="c4" onclick=
+            "myfunc_6(); myfunc();" readonly>
+               
+        <input type="text" id="c5" onclick=
+            "myfunc_7(); myfunc();" readonly>
+   
+        <input type="text" id="c6" onclick=
+            "myfunc_8(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="h4" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="h5" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="h6" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="i4" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="i5" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="i6" onclick="myfunc_4(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="c7" onclick=
+            "myfunc_9(); myfunc();" readonly>
+   
+        <input type="text" id="c8" onclick=
+            "myfunc_10();myfunc();" readonly>
+   
+        <input type="text" id="c9" onclick=
+            "myfunc_11();myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="h7" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="h8" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="h9" onclick="myfunc_4(); myfunc();" readonly>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="i7" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="i8" onclick="myfunc_4(); myfunc();" readonly>
+        <input type="text" id="i9" onclick="myfunc_4(); myfunc();" readonly>
+        <br><br>
+        
+        <!-- Button to reset game -->
+        <button id="but" onclick="myfunc_2()">
+            RESET</button>
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+ 
+  
+   
+   
+    </div>
+</body>
+   
