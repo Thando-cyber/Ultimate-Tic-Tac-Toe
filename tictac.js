@@ -1086,4 +1086,359 @@ function myfunct2_11() {
 	}
 }
 
+function myfunct3(){
+    var e1, e2, e3, e4, e5, e6, e7, e8, e9;
+    e1 = document.getElementById("e1").value;
+    e2 = document.getElementById("e2").value;
+    e3 = document.getElementById("e3").value;
+    e4 = document.getElementById("e4").value;
+    e5 = document.getElementById("e5").value;
+    e6 = document.getElementById("e6").value;
+    e7 = document.getElementById("e7").value;
+    e8 = document.getElementById("e8").value;
+    e9 = document.getElementById("e9").value;
+
+    // Checking if Player X won or not and after
+    // that disabled all the other fields
+    if ((e1 == 'x' || e1 == 'X') && (e2 == 'x' ||
+        e2 == 'X') && (e3 == 'x' || e3 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player X won');
+    }
+    else if ((e1 == 'x' || e1 == 'X') && (e4 == 'x' ||
+        e4 == 'X') && (e7 == 'x' || e7 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+
+        window.alert('Player X won');
+    }
+    else if ((e7 == 'x' || e7 == 'X') && (e8 == 'x' ||
+        e8 == 'X') && (e9 == 'x' || e9 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e6").disabled = true;
+        window.alert('Player X won');
+    }
+    else if ((e3 == 'x' || e3 == 'X') && (e6 == 'x' ||
+        e6 == 'X') && (e9 == 'x' || e9 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        window.alert('Player X won');
+    }
+    else if ((e1 == 'x' || e1 == 'X') && (e5 == 'x' ||
+        e5 == 'X') && (e9 == 'x' || e9 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        window.alert('Player X won');
+    }
+    else if ((e3 == 'x' || e3 == 'X') && (e5 == 'x' ||
+        e5 == 'X') && (e7 == 'x' || e7 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player X won');
+    }
+    else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' ||
+        b5 == 'X') && (b8 == 'x' || b8 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player X won');
+    }
+    else if ((e4 == 'x' || e4 == 'X') && (e5 == 'x' ||
+        e5 == 'X') && (e6 == 'x' || e6 == 'X')) {
+        document.getElementById('print')
+            .innerHTML = "Player X won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player X won');
+    }
+
+    // Checking of Player X finish
+    // Checking for Player 0 starts, Is player 0 won or
+    // not and after that disabled all the other fields
+    else if ((e1 == '0' || e1 == '0') && (e2 == '0' ||
+        e2 == '0') && (e3 == '0' || e3 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player 0 won');
+    }
+    else if ((e1 == '0' || e1 == '0') && (e4 == '0' ||
+        e4 == '0') && (e7 == '0' || e7 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player 0 won');
+    }
+    else if ((e7 == '0' || e7 == '0') && (e8 == '0' ||
+        e8 == '0') && (e9 == '0' || e9 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e6").disabled = true;
+        window.alert('Player 0 won');
+    }
+    else if ((e3 == '0' || e3 == '0') && (e6 == '0' ||
+        e6 == '0') && (e9 == '0' || e9 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e5").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        window.alert('Player 0 won');
+    }
+    else if ((e1 == '0' || e1 == '0') && (e5 == '0' ||
+        e5 == '0') && (e9 == '0' || e9 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        window.alert('Player 0 won');
+    }
+    else if ((e3 == '0' || e3 == '0') && (e5 == '0' ||
+        e5 == '0') && (e7 == '0' || e7 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player 0 won');
+    }
+    else if ((e2 == '0' || e2 == '0') && (e5 == '0' ||
+        e5 == '0') && (e8 == '0' || e8 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e4").disabled = true;
+        document.getElementById("e6").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player 0 won');
+    }
+    else if ((e4 == '0' || e4 == '0') && (e5 == '0' ||
+        e5 == '0') && (e6 == '0' ||e6 == '0')) {
+        document.getElementById('print')
+            .innerHTML = "Player 0 won";
+        document.getElementById("e1").disabled = true;
+        document.getElementById("e2").disabled = true;
+        document.getElementById("e3").disabled = true;
+        document.getElementById("e7").disabled = true;
+        document.getElementById("e8").disabled = true;
+        document.getElementById("e9").disabled = true;
+        window.alert('Player 0 won');
+    }
+
+    // Checking of Player 0 finish
+    // Here, Checking about Tie
+    else if ((e1 == 'X' || e1 == '0') && (e2 == 'X'
+        || e2 == '0') && (e3 == 'X' || e3 == '0') &&
+        (e4 == 'X' || e4 == '0') && (e5 == 'X' ||
+        e5 == '0') && (e6 == 'X' || e6 == '0') &&
+        (e7 == 'X' || e7 == '0') && (e8 == 'X' ||
+        e8 == '0') && (e9 == 'X' || e9 == '0')) {
+            document.getElementById('print')
+                .innerHTML = "Match Tie";
+            window.alert('Match Tie');
+    }
+    else {
+
+        // Here, Printing Result
+        if (flag2 == 1) {
+            document.getElementById('print')
+                .innerHTML = "Player X Turn";
+        }
+        else {
+            document.getElementById('print')
+                .innerHTML = "Player 0 Turn";
+        }
+    }
+}
+
+
+function myfunct3_3() {
+	if (flag2 == 1) {
+		document.getElementById("e1").value = "X";
+		document.getElementById("e1").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e1").value = "0";
+		document.getElementById("e1").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_4() {
+	if (flag2 == 1) {
+		document.getElementById("e2").value = "X";
+		document.getElementById("e2").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e2").value = "0";
+		document.getElementById("e2").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_5() {
+	if (flag2 == 1) {
+		document.getElementById("e3").value = "X";
+		document.getElementById("e3").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e3").value = "0";
+		document.getElementById("e3").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_6() {
+	if (flag2 == 1) {
+		document.getElementById("e4").value = "X";
+		document.getElementById("e4").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e4").value = "0";
+		document.getElementById("e4").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_7() {
+	if (flag2 == 1) {
+		document.getElementById("e5").value = "X";
+		document.getElementById("e5").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e5").value = "0";
+		document.getElementById("e5").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_8() {
+	if (flag2 == 1) {
+		document.getElementById("e6").value = "X";
+		document.getElementById("e6").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e6").value = "0";
+		document.getElementById("e6").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_9() {
+	if (flag2 == 1) {
+		document.getElementById("e7").value = "X";
+		document.getElementById("e7").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e7").value = "0";
+		document.getElementById("e7").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_10() {
+	if (flag2 == 1) {
+		document.getElementById("e8").value = "X";
+		document.getElementById("e8").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e8").value = "0";
+		document.getElementById("e8").disabled = true;
+		flag2 = 1;
+	}
+}
+
+function myfunct3_11() {
+	if (flag2 == 1) {
+		document.getElementById("e9").value = "X";
+		document.getElementById("e9").disabled = true;
+		flag2 = 0;
+	}
+	else {
+		document.getElementById("e9").value = "0";
+		document.getElementById("e9").disabled = true;
+		flag2 = 1;
+	}
+}
 
